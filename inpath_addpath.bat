@@ -3,7 +3,7 @@
 @goto end
 
 :add
-@set PATH=%1;%PATH%
+@set PATH=%~1;%PATH%
 @goto end
 
 :end
